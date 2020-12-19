@@ -1,0 +1,138 @@
+/* css file */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+.name{
+    background-color: #f4f7f9;
+    border-radius: 2px;
+    width:100%;
+    padding: 10px;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    height: 40px;
+}
+.mail{
+    background-color: #f4f7f9;
+    border-radius: 2px;
+    padding: 10px;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    height: 40px;
+    width:100%;
+
+}
+.message{
+    background-color: #f4f7f9;
+    border-radius: 2px;
+    width:100%;
+    padding: 10px;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    height: 40px;
+}
+.bttn{
+    background-color: #00979d;
+    color: white;
+    transition: -8s;
+    line-height: 50%;
+    width: 100%;
+    padding: 10px;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    height: 40px;
+
+}
+.bttn:hover{
+    background-color: #006f73;
+    color: white;
+    border-radius: 5px;
+}
+.contactus{
+    padding: 100px;
+    margin-bottom: 1em;
+    font-size: 3.5em;
+    margin-block-start: 0.1em;
+    margin-block-end: 0.83;
+    background-image: url("image1.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    font-family: Fantasy ;
+    
+}
+#cbb{
+    margin-top: -8px;
+    width: 100%;
+    float: right;
+    font-size: 50px;
+    animation-name: cnt;
+    animation-duration: 5s;
+    color: #FFFFFF;
+    animation-direction: alternate;
+}
+@keyframes cnt{
+    0%{
+        width: 300px;
+        color: #FFFFFF;
+    }
+    50%{
+        color: #a39e9e;
+    }
+    70%{
+        color: #ccc;
+    }
+    100%{
+        color: #f4f7f9;
+    }
+}
+body h1{
+    font-size: 50px;
+}
+.icon{
+    min-width: 60px;
+    height: 60px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 22px;
+    font-size: 35px;
+}
+.text{
+    display: flex;
+    text-align: center;
+    font-size: 16px;
+    color:black;
+
+}
+body h3{
+    position: relative;
+    font-size: 22px;
+    font-weight: 500;
+    color: blue;
+}
+
+
